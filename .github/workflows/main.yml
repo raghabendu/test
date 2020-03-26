@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: sinha-debojyoti/Python-Syntax-Check-Action
+        uses: sinha-debojyoti/Python-Syntax-Check-Action@Python Syntax v1
         with:
           who-to-greet: 'Python'
       # Use the output from the `hello` step
